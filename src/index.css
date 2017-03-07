@@ -1,0 +1,150 @@
+
+html { 
+  width: 100%; height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 50px 0;
+  font-family: monospace;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  color: rgba(0,0,0,.8);
+}
+
+.App {
+  margin: 0 auto;
+  text-align: left;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+.header {
+  border-top: 2px solid #FF6A6A;
+  border-bottom: 2px solid #FF6A6A;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  transform: rotate(2deg);
+}
+
+.header > * {
+  display: block;
+  transform: rotate(-2deg);
+}
+
+.header.main {
+  border-top: none;
+  padding-bottom: 20px;
+}
+
+.header.main,
+.Instagram .header {
+  margin: 10px auto;
+}
+
+.Instagram .header {
+  font-size: 3em;
+  padding: 2px 10px;
+}
+
+.top {
+  max-width: 80%;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.Instagram {
+  max-width: 450px;
+  text-align: center;
+}
+
+.Image {
+  width: 26%;
+  margin: 10px;
+  display: inline-block;
+}
+
+.Image img {
+    width: 100%;
+}
+
+.me {
+  width: 70px;
+  border-radius: 5px;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
+
+.top > * {
+  display: inline-block;
+}
+
+.Main {
+  margin-right: 30px;
+  width: 30%;
+  font-size: 1.1em;
+  text-align: left;
+  vertical-align: top;
+}
+
+.Main .text {
+  line-height: 15px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: #FF6A6A;
+  transform: rotate(1deg);
+  padding: 0 5px;
+}
+
+a.twitter {
+  background: #0097FF;
+}
+
+.Image {
+  transform: none;
+  padding: 0;
+}
+
+.Image > * {
+  transform: none;
+}
+
+a > * {
+  display: block;
+  transform: rotate(-1deg);
+}
+
+.Music {
+  margin-top: 50px;
+  padding: 5px 10px 15px 10px;
+}
+
+.Music img {
+  display:inline-block;
+  border-radius:5px;
+  margin-right: 20px;
+  width: 50px;
+  vertical-align: bottom;
+}
+
+.Music .meta {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  line-height: 10px;
+}
+
+.Music .meta .name {
+  text-transform: uppercase;
+}
