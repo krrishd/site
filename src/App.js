@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Main from './Main';
 import Instagram from './Instagram';
+import Work from './Work';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App fadeIn">
         <img src='/me.jpg' className="me" />
         <h1 className="header main">
           <span>krish dholakiya</span>
@@ -16,6 +17,7 @@ class App extends Component {
           <Instagram
             api='http://krish-api.herokuapp.com/api/insta' />
         </div>
+        <Work api='/work.json' />
       </div>
     );
   }

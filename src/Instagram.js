@@ -18,8 +18,24 @@ class Image extends Component {
 class Instagram extends Component {
   constructor(props) {
     super(props);
+    
+    let pictures;
+    if (localStorage && localStorage.cachedInsta) {
+      const rawPictures = JSON.parse(localStorage.cachedInsta);
+      pictures = rawPictures.map((pic, index) => {
+        const image = {
+          thumb: pic.images.low_resolution.url,
+          link: pic.link
+        };
+
+        return <Image image={image} key={index} />;
+      });
+    } else {
+      pictures = null;
+    }
+    
     this.state = {
-      pictures: null
+      pictures
     };
 
     const API_URL = this.props.api;
@@ -39,6 +55,12 @@ class Instagram extends Component {
         
         this.setState({
           pictures: condensedPictures
+        }, () => {
+          try {
+            localStorage.cachedInsta = JSON.stringify(rawPictures);   
+          } catch(e) {
+            throw e;
+          }
         });
       });
   }
