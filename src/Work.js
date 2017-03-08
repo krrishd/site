@@ -52,7 +52,7 @@ class Work extends Component {
   render() {
     return (
       <div className="Work">
-        <h2 className="header">work</h2>
+        <h2 className="header"><span>work</span></h2>
         {this.state.work}
       </div>
     );

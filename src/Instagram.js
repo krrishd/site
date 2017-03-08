@@ -69,7 +69,7 @@ class Instagram extends Component {
     return (
       <div className="Instagram">
         <h2 className="header">
-          <span>📷</span>
+          <span><img src='/camera.png' width='55px' /></span>
         </h2>
         <div className="pictures">
           {this.state.pictures}
