@@ -205,7 +205,8 @@ a > * {
   width: 100%;
 }
 
-.Work .header {
+.Work .header,
+.Writing .header {
   margin: 30px auto;
   border-top: none;
 }
@@ -254,6 +255,23 @@ footer {
 
 footer b {
   color: #FF6A6A;
+}
+
+.Post {
+  display: block;
+  background: none;
+  color: rgba(0,0,0,.8);
+  border-bottom: 1px solid #FF6A6A;
+  margin: 10px auto;
+  text-align: center;
+  width: 250px;
+  padding: 10px;
+  font-size: 1.25em;
+}
+
+.Post:hover {
+  transition: .1s;
+  color: #ff0505;
 }
 
 @media (max-width: 400px) {

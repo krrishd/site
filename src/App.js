@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Main from './Main';
 import Instagram from './Instagram';
+import Writing from './Writing';
 import Work from './Work';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
           <Instagram
             api='http://krish-api.herokuapp.com/api/insta' />
         </div>
+        <Writing />
         <Work api='/work.json' />
       </div>
     );
