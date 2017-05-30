@@ -13,11 +13,6 @@
 			"link": "http://git.io/text-congress"
 		},
 		{
-			"name": "tbhpolitics",
-			"description": "I'm currently working on a custom content management system that specializes in editorial/content-reviewing functionality, a rich writing experience, and general news site functionality. The project was commissioned by the Objectivist Fund.",
-			"img": "/img/work/tbh.png"
-		},
-		{
 			"name": "Slice Capital",
 			"description": "At Slice, I worked on a variety of software engineering tasks as well as the occasional infrastructural work. My work included a complete landing page redesign, the creation of waitlist software for the product beta, the creation of an internal dashboard aimed at meeting FINRA-compliant operational standards, Slack integrations with the various internal tooling, setup of self-hosted email newsletter software, and more.",
 			"img": "/img/work/slice.png",
@@ -40,23 +35,12 @@
 			"description": "A doctor-patient relationship management system that included functionality such as digital prescriptions (and Postmates-powered delivery), data streaming from sources such as Apple Health, etc. Won Best Health Hack and also Best Consumer Health Hack at PennApps.",
 			"img": "/img/work/helix.png",
 			"link": "http://devpost.com/software/helix"
-		}, 
-		{
-			"name": "openSourceSchool",
-			"description": "An open-source suite of education-powering technology including a learning management system.",
-			"img": "/img/work/opensourceschool.png",
-			"link": "https://www.behance.net/gallery/23135075/openSourceSchool-Teacher-Platform"
 		},
 		{
 			"name": "goContribute",
 			"description": "A tool that finds the best open source projects for you to contribute to based on your preferences regarding open source contribution (primary language, whether repos have a lot of stars, contributors, activity, or open issues). Built for the Third Annual Github Data Challenge. Currently only works for two queries every ten minutes due to new GitHub API rate-limiting.",
 			"img": "/img/work/gocontribute.png",
 			"link": "http://gocontribute.herokuapp.com"
-		}, {
-			"name": "ossHack",
-			"description": "A landing page for a proposed virtual hackathon involving open source technology (similar to how Node Knockout, Rails Rumble, Static Showdown, etc worked).",
-			"img": "/img/work/oss.png",
-			"link": "http://osshack.github.io"
 		}
 	]
 }
