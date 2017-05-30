@@ -4,13 +4,13 @@
       "name": "Write",
       "description": "A free, web-based writing app built using React. The premise is simple. You set a duration during which you write; within that duration, if you stop typing for more than 5 seconds, all your progress is lost. The typical use case is to avoid writer's block and get something down in writing. Personally, I've been using it for journalling; it's been a good exercise getting all of my thoughts, latent or prominent, down in writing. The duration has also helped me keep a consistent routine; if I know it's only going to be fifteen minutes every session, it's easier to sit down and get through it.",
       "img": "/img/work/write.png",
-      "link": "http://write.surge.sh"
+      "link": "http://write.itskrish.co"
     },
     {
 			"name": "Text Your Rep",
 			"description": "A tool that lets you text a message that'll go directly to your Congressperson (they receive it via fax). The current hosted version uses Phaxio's test API keys and thus doesn't actually send the fax (even though it gives feedback as though it did); deploy as instructed on the GitHub README and use actual Phaxio API key/secret to make it work. Built with Node.js, Twilio, and Phaxio at CalHacks III.",
 			"img": "/img/work/rep.png",
-			"link": "http://itskrish.co/text-your-rep"
+			"link": "http://git.io/text-congress"
 		},
 		{
 			"name": "tbhpolitics",
