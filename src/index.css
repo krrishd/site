@@ -35,7 +35,7 @@
   animation: fadein .25s;
 }
 
-html { 
+html {
   width: 100%; height: 100%;
   overflow-x: hidden;
 }
@@ -76,6 +76,8 @@ h1, h2, h3 {
 .header.main {
   border-top: none;
   padding-bottom: 20px;
+  color: #fdfdfd;
+  text-shadow: #ff6a6a 1px 1px, #ff6a6a 0px 0px, #ff6a6a 1px 1px, #ff6a6a 2px 2px, #ff6a6a 3px 3px, #ff6a6a 4px 4px, #ff6a6a 5px 5px, #ff6a6a 6px 6px, #ff6a6a 7px 7px, #ff6a6a 8px 8px, #ff6a6a 9px 9px, #ff6a6a 10px 10px, #ff6a6a 11px 11px, #ff6a6a 12px 12px, #ff6a6a 13px 13px, #ff6a6a 14px 14px, #ff6a6a 15px 15px, #ff6a6a 16px 16px, #ff6a6a 17px 17px, #ff6a6a 18px 18px, #ff6a6a 19px 19px;
 }
 
 .header.main,
