@@ -41,7 +41,7 @@ class WorkItem extends Component {
           href='/'
           className='back'>&lt;-</Link>
         <img src={this.state.meta.img} />
-        <h2 className="header main"><span>{this.state.meta.name}</span></h2>
+        <h2 className="header"><span>{this.state.meta.name}</span></h2>
         <p className="description">{this.state.meta.description}</p>
         {
           this.state.meta.link ?

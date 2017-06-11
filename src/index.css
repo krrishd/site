@@ -68,9 +68,9 @@ h1, h2, h3 {
 }
 
 .header {
-  border-top: 2px solid #FF6A6A;
   border-bottom: 2px solid #FF6A6A;
   width: 300px;
+  margin: 10px auto;
   text-align: center;
   padding: 10px;
   transform: rotate(2deg);
