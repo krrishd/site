@@ -177,6 +177,10 @@ a.ln {
   background: #0077B5;
 }
 
+a.sc {
+  background: #ff7700;
+}
+
 .Image {
   transform: none;
   padding: 0;
@@ -194,6 +198,7 @@ a > * {
 .Music {
   margin-top: 50px;
   padding: 5px 10px 15px 10px;
+  border-bottom: 2px solid #FF6A6A;
 }
 
 .Music img {

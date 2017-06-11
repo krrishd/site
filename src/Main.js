@@ -100,6 +100,7 @@ class Main extends Component {
             <li><a href="/r.pdf">résumé</a></li>
             <li><a className="gh" href="//git.io/krish">github</a></li>
             <li><a className="ln" href="//linkedin.com/in/krishdholakiya">linkedin</a></li>
+            <li><a className="sc" href="//soundcloud.com/krish-dholakiya">soundcloud</a></li>
           </ul>
         </div>
         <div className="ting hmu fadeIn">
