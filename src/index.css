@@ -28,11 +28,19 @@
 }
 
 .fadeIn {
-  -webkit-animation: fadein .25s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein .25s; /* Firefox < 16 */
-  -ms-animation: fadein .25s; /* Internet Explorer */
-  -o-animation: fadein .25s; /* Opera < 12.1 */
-  animation: fadein .25s;
+  -webkit-animation: fadein .45s ease-out; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein .45s ease-out; /* Firefox < 16 */
+  -ms-animation: fadein 0.45s ease-out; /* Internet Explorer */
+  -o-animation: fadein 0.45s ease-out; /* Opera < 12.1 */
+  animation: fadein 0.45s ease-out;
+}
+
+.fadeIn.nonInit {
+  -webkit-animation: fadein .15s ease-out; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein .15s ease-out; /* Firefox < 16 */
+  -ms-animation: fadein 0.15s ease-out; /* Internet Explorer */
+  -o-animation: fadein 0.15s ease-out; /* Opera < 12.1 */
+  animation: fadein 0.15s ease-out;
 }
 
 html { 
@@ -73,14 +81,15 @@ h1, h2, h3 {
   transform: rotate(-2deg);
 }
 
-.header.main {
-  border-top: none;
-  padding-bottom: 20px;
-}
-
 .header.main,
 .Instagram .header {
   margin: 10px auto;
+}
+
+.header.main {
+  border-top: none;
+  padding-bottom: 20px;
+  margin-bottom: 55px;
 }
 
 .Instagram .header {
@@ -93,7 +102,8 @@ h1, h2, h3 {
 
 .top {
   max-width: 80%;
-  margin: 35px auto;
+  min-width: 600px;
+  margin: 10px auto;
   text-align: center;
   margin-bottom: 70px;
 }
@@ -126,12 +136,11 @@ h1, h2, h3 {
 }
 
 .Main {
-  margin-right: 30px;
-  width: 30%;
+  width: 350px;
   font-size: 1.1em;
   text-align: left;
   vertical-align: top;
-  margin-top: 30px;
+  margin-top: -15px;
 }
 
 .Main .text {
@@ -149,6 +158,14 @@ a {
 
 a.twitter {
   background: #0097FF;
+}
+
+a.gh {
+  background: rgba(0,0,0,.65);
+}
+
+a.ln {
+  background: #0077B5;
 }
 
 .Image {
@@ -174,8 +191,15 @@ a > * {
   display:inline-block;
   border-radius:5px;
   margin-right: 20px;
-  width: 50px;
+  width: 50px; height: 50px;
   vertical-align: bottom;
+}
+
+.Music .loading {
+  border-radius: none;
+  width: 20px; height: auto;
+  background: none;
+  margin-right: 10px;
 }
 
 .Music .meta {
@@ -274,18 +298,101 @@ footer b {
   color: #ff0505;
 }
 
-@media (max-width: 400px) {
+.hidden {
+  display: none;
+}
+
+.Navigation {
+  position: fixed;
+  left: -10px;
+  top: 120px;
+}
+
+.Navigation ul {
+  border-left: 3px dotted #FF6A6A;
+  padding-left: 0;
+  margin-left: 25px;
+}
+
+.Navigation ul li {
+  list-style: none;
+  padding: 30px;
+  font-size:1.4em;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.Navigation ul li.selected {
+  color: #FF6A6A;
+  border-left: 3px solid #ff0505;
+  transform: none;
+  margin-left: -3px;
+}
+
+.cool {
+  padding: 5px;
+  text-align: center;
+  margin: 5px auto;
+  font-size: 1.3em;
+}
+
+.ting {
+  width: 100%;
+  margin: 30px auto;
+  margin-top: auto;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.ting p {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.ting li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header.main { opacity: 0; animation-fill-mode: forwards; animation-delay: .04s;}
+
+.ting:nth-child(1) { animation-delay: .1s; }
+.ting:nth-child(2) { animation-delay: .16s; }
+.ting:nth-child(3) { animation-delay: .22s; }
+.ting:nth-child(4) { animation-delay: .28s; }
+
+.Music { opacity: 0; animation-fill-mode: forwards; animation-delay: .34s;}
+
+@media (max-width: 620px) {
+  .hidden {
+    display: inline-block;
+  }
+
+  .hidden.Writing,
+  .hidden.Work {
+    display: block;
+    margin: 60px auto;
+  }
+
+  .Navigation {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+
   body {
     margin: 0;
     padding: 0;
   }
 
-  .header .main {
+  .header.main {
     margin-bottom: 0px;
   }
 
   .top {
     margin-top: 15px;
+    min-width: auto;
   }
 
   .me {
@@ -299,12 +406,16 @@ footer b {
   .Instagram,
   .Main,
   .Work {
-    margin-left: -9.5%;
     width: 90%;
+  }
+
+  .Instagram .Image {
+    width: 20%;
   }
 
   .Main {
     width: 100%;
+    min-width: 0;
     margin: 0 auto;
   }
 
@@ -312,6 +423,10 @@ footer b {
     display: block;
     width: 93%;
     margin: 10px auto;
+  }
+
+  .Main .ting li a {
+    margin: 10px;
   }
 
   .Music.header{

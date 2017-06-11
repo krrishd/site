@@ -18,6 +18,8 @@ class Image extends Component {
 class Instagram extends Component {
   constructor(props) {
     super(props);
+
+    console.log(props);
     
     let pictures;
     if (localStorage && localStorage.cachedInsta) {
@@ -67,10 +69,7 @@ class Instagram extends Component {
     
   render() {
     return (
-      <div className="Instagram">
-        <h2 className="header">
-          <span><img src='/camera.png' width='55px' /></span>
-        </h2>
+      <div className={`Instagram fadeIn nonInit ${this.props.className}`}>
         <div className="pictures">
           {this.state.pictures}
         </div>

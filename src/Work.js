@@ -51,8 +51,7 @@ class Work extends Component {
 
   render() {
     return (
-      <div className="Work">
-        <h2 className="header"><span>work</span></h2>
+      <div className={`Work fadeIn nonInit ${this.props.className}`}>
         {this.state.work}
       </div>
     );
