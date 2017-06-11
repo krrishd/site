@@ -198,7 +198,7 @@ a > * {
 .Music {
   margin-top: 50px;
   padding: 5px 10px 15px 10px;
-  border-bottom: 2px solid #FF6A6A;
+  border-top: 2px solid #FF6A6A;
 }
 
 .Music img {
