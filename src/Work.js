@@ -13,7 +13,7 @@ class WorkThumb extends Component {
   render() {
     return (
       <Link
-        href={`/work/${this.props.id}`}
+        to={`/work/${this.props.id}`}
         className="WorkThumb">
         <img src={this.props.img} />
       </Link>
