@@ -28,7 +28,7 @@ class Music extends Component {
             song: {
               art: res.body.image[1]['#text'],
               artist: res.body.artist['#text'],
-              name: res.body.name
+              name: this.makeShortEnough(res.body.name)
             }
           }, () => {
             try {
@@ -47,12 +47,29 @@ class Music extends Component {
     }, 15000);
   }
 
+  makeShortEnough(title) {
+    if (title.length < 24) {
+      return title;
+    }
+
+    let featuresRemoved = title.split('(')[0];
+    
+    if (featuresRemoved.length < 24) {
+      return featuresRemoved;
+    }
+
+    return featuresRemoved.slice(0, 23);
+  }
+
   render() {
     return (
-      <div className="header Music">
+      <div className="header Music fadeIn">
         <img src={this.state.song.art} />
         <div className="meta">
-          <p className="name">{this.state.song.name}</p>
+          <p className="name">
+            <img src='/img/eq.gif' className="loading"/>
+            <span>{this.state.song.name}</span>
+          </p>
           <p className="artist">{this.state.song.artist}</p>
         </div>
       </div>
@@ -67,14 +84,28 @@ class Main extends Component {
 
   render() {
     return (
-      <div className="Main">
-        <div className="text">
-          <p>I'm a software engineer who dabbles in everything from design to product.</p>
-          <p>I'm going to be spending Summer 2017 as a software engineering intern @ <a href="http://sendgrid.com"><span>SendGrid</span></a>, and was a <a href="http://pennappsfellows.com"><span>PennApps Fellow</span></a> in the past.</p>
-          <p>I also do freelance work -- I take on projects ranging from UI design to building product MVPs.</p>
-          <p>I take interest in music (production and as a listener), politics, and other things you might see pop-up from time to time on my <a className="twitter" href="//twitter.com/krrishd"><span>twitter</span></a>.</p>
-          <p>Let's talk: you can email me at <a href="mailto:krish@slice.capital"><span>krish@slice.capital</span></a> or DM me on Twitter. Here's my <a href="/r.pdf"><span>résumé</span></a> if that's what you're looking for.</p>
-          </div>
+      <div className={`Main ${this.props.className}`}>
+        <div className="ting title fadeIn">
+          <h3 className="cool">who am i?</h3>
+          <p>i'm a designer / developer based in boulder, co</p>
+        </div>
+        <div className="ting where fadeIn">
+          <h3 className="cool">what have i been up to?</h3>
+          <p>currently interning @ <a href="//sendgrid.com" target="_blank">sendgrid</a>, studying CS + cognitive science @ cu boulder, learning interaction design</p>
+          <p>formerly a <a href="http://pennappsfellows.com" target="_blank">pennapps fellow</a>, freelance software dev</p>
+        </div>
+        <div className="ting other fadeIn">
+          <h3 className="cool">where else can you find me?</h3>
+          <ul className="links">
+            <li><a href="/r.pdf">résumé</a></li>
+            <li><a className="gh" href="//git.io/krish">github</a></li>
+            <li><a className="ln" href="//linkedin.com/in/krishdholakiya">linkedin</a></li>
+          </ul>
+        </div>
+        <div className="ting hmu fadeIn">
+          <h3 className="cool">can I get in touch?</h3>
+          <p>email krdh0184@colorado.edu and we can talk :)</p>
+        </div>
         <Music api={this.props.api}/>
       </div>
     );

@@ -12,6 +12,7 @@ class Post extends Component {
   render() {
     return (<a
       href={this.props.link}
+      target="_blank"
       className="Post">
       <span>{this.props.title}</span>
     </a>);
@@ -36,8 +37,7 @@ class Writing extends Component {
     }).reverse();
 
     return (
-      <div className="Writing">
-        <h2 className="header"><span>writing</span></h2>
+      <div className={`Writing fadeIn nonInit ${this.props.className}`}>
         {posts}
       </div>
     )
