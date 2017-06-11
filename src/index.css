@@ -365,7 +365,7 @@ footer b {
 
 .ting li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 5px 10px;
 }
 
 .header.main { opacity: 0; animation-fill-mode: forwards; animation-delay: .04s;}
