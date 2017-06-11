@@ -38,7 +38,7 @@ class WorkItem extends Component {
     return (
       <div className="WorkItem fadeIn">
         <Link
-          href='/'
+          to='/'
           className='back'>&lt;-</Link>
         <img src={this.state.meta.img} />
         <h2 className="header"><span>{this.state.meta.name}</span></h2>
