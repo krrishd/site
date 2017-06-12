@@ -157,12 +157,22 @@ h1, h2, h3 {
 }
 
 a {
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
   display: inline-block;
   text-decoration: none;
   color: #fff;
   background: #FF6A6A;
   transform: rotate(1deg);
   padding: 0 5px;
+}
+
+a:hover {
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  transform: rotate(0deg);
 }
 
 a.twitter {
