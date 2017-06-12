@@ -91,16 +91,16 @@ class Main extends Component {
         </div>
         <div className="ting where fadeIn">
           <h3 className="cool">what have i been up to?</h3>
-          <p>currently interning @ <a href="//sendgrid.com" target="_blank">sendgrid</a>, studying CS + cognitive science @ cu boulder, learning interaction design</p>
-          <p>formerly a <a href="http://pennappsfellows.com" target="_blank">pennapps fellow</a>, freelance software dev</p>
+          <p>currently interning @ <a href="//sendgrid.com" target="_blank"><span>sendgrid</span></a>, studying CS + cognitive science @ cu boulder, learning interaction design</p>
+          <p>formerly a <a href="http://pennappsfellows.com" target="_blank"><span>pennapps fellow</span></a>, freelance software dev</p>
         </div>
         <div className="ting other fadeIn">
           <h3 className="cool">where else can you find me?</h3>
           <ul className="links">
-            <li><a href="/r.pdf">résumé</a></li>
-            <li><a className="gh" href="//git.io/krish">github</a></li>
-            <li><a className="ln" href="//linkedin.com/in/krishdholakiya">linkedin</a></li>
-            <li><a className="sc" href="//soundcloud.com/krish-dholakiya">soundcloud</a></li>
+            <li><a href="/r.pdf"><span>résumé</span></a></li>
+            <li><a className="gh" href="//git.io/krish"><span>github</span></a></li>
+            <li><a className="ln" href="//linkedin.com/in/krishdholakiya"><span>linkedin</span></a></li>
+            <li><a className="sc" href="//soundcloud.com/krish-dholakiya"><span>soundcloud</span></a></li>
           </ul>
         </div>
         <div className="ting hmu fadeIn">
