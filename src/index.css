@@ -145,7 +145,7 @@ h1, h2, h3 {
 }
 
 .Main {
-  width: 350px;
+  width: 400px;
   font-size: 1.1em;
   text-align: left;
   vertical-align: top;
@@ -345,7 +345,6 @@ footer b {
 
 .cool {
   padding: 5px;
-  text-align: center;
   margin: 5px auto;
   font-size: 1.3em;
 }
