@@ -205,6 +205,10 @@ a > * {
   transform: rotate(-1deg);
 }
 
+a:hover > * {
+  transform: rotate(0deg);
+}
+
 .Music {
   margin-top: 50px;
   padding: 5px 10px 15px 10px;
