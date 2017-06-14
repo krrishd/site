@@ -44,13 +44,15 @@ class App extends Component {
     super();
 
     this.state = {
-      current: 'main'
+      current: sessionStorage.tab || 'main'
     };
   }
 
   switchCurrent = (newCurrent) => {
     this.setState({
       current: newCurrent
+    }, () => {
+      sessionStorage.tab = newCurrent;
     });
   }
 
