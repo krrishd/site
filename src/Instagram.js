@@ -11,7 +11,7 @@ class Image extends Component {
       href={this.props.image.link}
       className="Image">
       <img src={this.props.image.thumb} />
-    </a>); 
+    </a>);
   }
 }
 
@@ -19,8 +19,6 @@ class Instagram extends Component {
   constructor(props) {
     super(props);
 
-    console.log(props);
-    
     let pictures;
     if (localStorage && localStorage.cachedInsta) {
       const rawPictures = JSON.parse(localStorage.cachedInsta);
@@ -35,7 +33,7 @@ class Instagram extends Component {
     } else {
       pictures = null;
     }
-    
+
     this.state = {
       pictures
     };
@@ -44,7 +42,7 @@ class Instagram extends Component {
     request
       .get(API_URL)
       .end((err, res) => {
-        const rawPictures = res.body.slice(0,9);      
+        const rawPictures = res.body.slice(0,9);
         const condensedPictures = rawPictures.map((pic, index) => {
           const image = {
             thumb: pic.images.low_resolution.url,
@@ -54,19 +52,19 @@ class Instagram extends Component {
             image={image}
             key={index} />;
         });
-        
+
         this.setState({
           pictures: condensedPictures
         }, () => {
           try {
-            localStorage.cachedInsta = JSON.stringify(rawPictures);   
+            localStorage.cachedInsta = JSON.stringify(rawPictures);
           } catch(e) {
             throw e;
           }
         });
       });
   }
-    
+
   render() {
     return (
       <div className={`Instagram fadeIn nonInit ${this.props.className}`}>
