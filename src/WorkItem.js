@@ -44,7 +44,7 @@ class WorkItem extends Component {
 
   getRelevantItem(work) {
     return work.find(item => {
-      return (item.name === atob(this.props.params.id));
+      return (item.md === this.props.params.id);
     });
   }
 

@@ -59,7 +59,7 @@ class Work extends Component {
           <WorkThumb
             api={this.props.api}
             img={item.img}
-            id={btoa(item.name)} />
+            id={item.md} />
       );
     });
   }
