@@ -28,16 +28,17 @@ The current feature-set of Write includes:
 
 ## UX Insight
 
-The project is still in its infancy (despite a successful Product Hunt launch with a significant influx of new users), so I'm currently only in the position to speak on my user experience: I've been using the tool for several months for therapeutic journalling, and from my perspective that might be the most value I've found in the tool. Being able to force every thought in my mind – latent or prominent – into writing, has allowed for unprecedented levels of clarity in my mind. Choosing the 15 minute duration (the default) initially left me out of things to write about around the ~7 minute mark, but given that I was forced to keep writing, I had to keep typing until something else bubbled up from my thoughts. I found a lot of thoughts coming up that I'd otherwise ignore; it's those kinds of thoughts that unclutter the mind when clarified.
+I've been using the tool for several months for **therapeutic journalling**, and from my perspective that might be the most value I've found in the tool. Being able to force every thought in my mind – latent or prominent – into writing, has allowed for **unprecedented levels of clarity in my mind**. Choosing the 15 minute duration (the default) initially left me out of things to write about around the ~7 minute mark, but given that I was forced to keep writing, I had to keep typing until something else bubbled up from my thoughts. I found a lot of thoughts coming up that I'd otherwise ignore; it's those kinds of thoughts that unclutter the mind when clarified.
 
 I've tried journalling before but was never able to make a habit of it. Two factors have made this tool habitual (every 2-3 days) for me:
 
 * For one, the duration being finite makes it easy to approach, given that it's clear that after 15 minutes I can move on to whatever else I wanted to do.
-* More powerful, in my opinion, is that I've been [Pavlov'd](https://www.learning-theories.com/classical-conditioning-pavlov.html) into a flow where, when my mind is unclear or cluttered, I automatically want to journal about it for the finite duration. I didn't design Write around such a cognitive trigger, so I can only assume that the utility from journalling with it has been so significant that my subconscious mind craves that utility when it needs it. Whether that's utility inherent to journalling or just my tool remains to be seen; either way, it's utility I've only gained access to through the constraints of Write & Flowstate.
+* More powerful, in my opinion, is that **I've been [Pavlov'd](https://www.learning-theories.com/classical-conditioning-pavlov.html)** into a flow where, when my mind is unclear or cluttered, I automatically want to journal about it for the finite duration. I didn't design Write around such a cognitive trigger, so I can only assume that the utility from journalling with it has been so significant that **my subconscious mind craves that utility** when it needs it. Whether that's utility inherent to journalling or just my tool remains to be seen; either way, it's utility I've only gained access to through the constraints of Write & Flowstate.
 
 ## Press
 
 * [Product Hunt (front page, 200+ upvotes)](https://www.producthunt.com/posts/write-4)
+* [Parenting Roundabout Podcast](http://parentingroundabout.libsyn.com/episode-171-stop-the-calendar-we-want-to-get-off)
 * [FreeTech4Teachers](http://www.freetech4teachers.com/2017/05/write-surge-minimalist-writing-platform.html#.WSCZvrzzRSV)
 * [UsefulInterweb.com](http://usefulinterweb.com/post/160835994896/keep-writing-or-everything-gets-deleted)
 * [HVG Tech (Hungarian tech publication)](http://hvg.hu/tudomany/20170519_write_gyors_iras_gepeles)

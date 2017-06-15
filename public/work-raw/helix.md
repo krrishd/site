@@ -12,7 +12,7 @@ Sketch, JavaScript, Node.js, MongoDB, Heroku
 
 ## Concept
 
-I built Helix with three other people at [PennApps](//pennapps.com), the University of Pennsylvania's hackathon in partnership with [Major League Hacking](//mlh.io). We won two prizes: Best Health Hack, and Best Consumer Health Hack.
+I built Helix with three other people at [PennApps](//pennapps.com), the University of Pennsylvania's hackathon in partnership with [Major League Hacking](//mlh.io). We won two prizes: **Best Health Hack, and Best Consumer Health Hack**.
 
 Helix is a doctor-patient relationship management platform that essentially allows the doctor to do several things, including:
 

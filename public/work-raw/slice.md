@@ -20,7 +20,7 @@ From there, we expanded our legal and business development teams to accomodate t
 
 Late in 2016, we received notice from Forbes that we were top 4 finalists in their Under 30 Changemakers competition; Rohan and Nihar (our biz dev lead) pitched to a Forbes-run panel of investors such as Ashton Kutcher, and we were subsequently **funded by Rough Draft Ventures**.
 
-Early 2017 onwards, I started getting more busy with school and began narrowing the scope of my work with Slice, and we onboarded our new CTO (Dan Stepanov). I'm currently loosely involved with the team, stepping in when my web dev work comes in handy; the team is on track to launch soon, and I'm excited to see where Slice takes the world of investment!
+Early 2017 onwards, I started getting more busy with school and began narrowing the scope of my work with Slice, and we onboarded our new CTO ([Dan Stepanov](http://danstepanov.com)). I'm currently loosely involved with the team, stepping in when my web dev work comes in handy; the team is on track to launch soon, and I'm excited to see where Slice takes the world of investment!
 
 ## Press
 
