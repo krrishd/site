@@ -12,7 +12,7 @@ class WorkItem extends Component {
 
     this.state = {
       meta: (() => {
-        if (sessionStorage.preloadedWork) {
+        if (sessionStorage && sessionStorage.preloadedWork) {
           const parsedWork = JSON.parse(sessionStorage.preloadedWork);
           return this.getRelevantItem(parsedWork);
         }
@@ -28,10 +28,13 @@ class WorkItem extends Component {
         this.setState({
           meta: relevantItem
         }, () => {
-          sessionStorage.preloadedWork = JSON.stringify(res.body.work);
+          try {
+            sessionStorage.preloadedWork = JSON.stringify(res.body.work);
+          } catch(e) {
+            throw e;
+          }
           this.getMarkdown(relevantItem.md, (err, md) => {
             if (err) throw err;
-            console.log(md);
             this.populateMarkdown(md);
           })
         });

@@ -27,7 +27,7 @@ class Work extends Component {
 
     this.state = {
       work: (() => {
-        if (!sessionStorage.preloadedWork) return null;
+        if (!sessionStorage || !sessionStorage.preloadedWork) return null;
         return this.rawToThumb(JSON.parse(sessionStorage.preloadedWork));
       })()
     }
@@ -43,7 +43,11 @@ class Work extends Component {
           this.setState({
             work: workThumbs
           }, () => {
-            sessionStorage.preloadedWork = JSON.stringify(rawWork);
+            try {
+              sessionStorage.preloadedWork = JSON.stringify(rawWork);
+            } catch(e) {
+              throw e;
+            }
           });
       });
     }
