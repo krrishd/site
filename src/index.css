@@ -264,7 +264,7 @@ a:hover > * {
 }
 
 .WorkItem {
-  max-width: 720px;
+  max-width: 600px;
   min-width: 320px;
   width: 50%;
   margin: 10px auto;
