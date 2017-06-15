@@ -325,6 +325,13 @@ a:hover > * {
   border: none;
 }
 
+.WorkItem .loading {
+  width: 100px;
+  min-height: 0;
+  display: block;
+  margin: 20px auto;
+}
+
 footer {
   text-align: center;
   margin: 50px auto -20px auto;
@@ -528,6 +535,7 @@ footer b {
 
   .WorkItem a {
     padding: 0;
+    display: inline;
   }
 
   .header {

@@ -18,7 +18,7 @@ class WorkItem extends Component {
         }
         return null;
       }),
-      content: null
+      content: <img src='/img/loading.gif' className='loading' />
     }
 
     request
@@ -32,11 +32,12 @@ class WorkItem extends Component {
             sessionStorage.preloadedWork = JSON.stringify(res.body.work);
           } catch(e) {
             throw e;
+          } finally {
+            this.getMarkdown(relevantItem.md, (err, md) => {
+              if (err) throw err;
+              this.populateMarkdown(md);
+            });
           }
-          this.getMarkdown(relevantItem.md, (err, md) => {
-            if (err) throw err;
-            this.populateMarkdown(md);
-          })
         });
       });
   }
