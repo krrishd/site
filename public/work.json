@@ -2,45 +2,38 @@
 	"work": [
 		{
       "name": "Write",
-      "description": "A free, web-based writing app built using React. The premise is simple. You set a duration during which you write; within that duration, if you stop typing for more than 5 seconds, all your progress is lost. The typical use case is to avoid writer's block and get something down in writing. Personally, I've been using it for journalling; it's been a good exercise getting all of my thoughts, latent or prominent, down in writing. The duration has also helped me keep a consistent routine; if I know it's only going to be fifteen minutes every session, it's easier to sit down and get through it.",
-      "img": "/img/work/write.png",
-      "link": "http://write.itskrish.co"
+      "md": "write",
+      "img": "/img/work/write.png"
     },
     {
 			"name": "Text Your Rep",
-			"description": "A tool that lets you text a message that'll go directly to your Congressperson (they receive it via fax). The current hosted version uses Phaxio's test API keys and thus doesn't actually send the fax (even though it gives feedback as though it did); deploy as instructed on the GitHub README and use actual Phaxio API key/secret to make it work. Built with Node.js, Twilio, and Phaxio at CalHacks III.",
-			"img": "/img/work/rep.png",
-			"link": "http://git.io/text-congress"
+			"md": "text-a-rep",
+			"img": "/img/work/rep.png"
 		},
 		{
 			"name": "Slice Capital",
-			"description": "At Slice, I worked on a variety of software engineering tasks as well as the occasional infrastructural work. My work included a complete landing page redesign, the creation of waitlist software for the product beta, the creation of an internal dashboard aimed at meeting FINRA-compliant operational standards, Slack integrations with the various internal tooling, setup of self-hosted email newsletter software, and more.",
-			"img": "/img/work/slice.png",
-			"link": "http://slice.capital"
+			"md": "slice",
+			"img": "/img/work/slice.png"
 		},
 		{
 			"name": "Sitrus Clothing",
-			"description": "Sitrus is a high-end streetwear brand for which I worked on brand/identity (logo, etc) as well as the design & development of an eCommerce website.",
-			"img": "/img/work/sitrus.png",
-			"link": "http://sitrusclothing.com"
+			"md": "sitrus",
+			"img": "/img/work/sitrus.png"
 		},
 		{
 			"name": "Forward Philly",
-			"description": "At Forward, I worked on leveraging 1M+ Philly property records to build a component to their React-based dashboard dealing with automated property valuation. I worked at Forward Philly as a member of the PennApps Fellowship Class of 2015.",
-			"link": "http://pennappsfellows.com",
+			"md": "forward",
 			"img": "/img/work/fwd.png"
 		},
 		{
 			"name": "Helix",
-			"description": "A doctor-patient relationship management system that included functionality such as digital prescriptions (and Postmates-powered delivery), data streaming from sources such as Apple Health, etc. Won Best Health Hack and also Best Consumer Health Hack at PennApps.",
-			"img": "/img/work/helix.png",
-			"link": "http://devpost.com/software/helix"
+			"md": "helix",
+			"img": "/img/work/helix.png"
 		},
 		{
 			"name": "goContribute",
-			"description": "A tool that finds the best open source projects for you to contribute to based on your preferences regarding open source contribution (primary language, whether repos have a lot of stars, contributors, activity, or open issues). Built for the Third Annual Github Data Challenge. Currently only works for two queries every ten minutes due to new GitHub API rate-limiting.",
-			"img": "/img/work/gocontribute.png",
-			"link": "http://gocontribute.herokuapp.com"
+			"md": "gocontribute",
+			"img": "/img/work/gocontribute.png"
 		}
 	]
 }

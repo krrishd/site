@@ -1,6 +1,10 @@
-![image here](image_url)
+![image here](/img/work/sitrus.png)
 
 # Sitrus
+
+## Links
+
+* [Store](http://sitrusclothing.com)
 
 ## Tools
 

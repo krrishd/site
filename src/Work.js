@@ -26,27 +26,38 @@ class Work extends Component {
     super(props);
 
     this.state = {
-      work: null
+      work: (() => {
+        if (!sessionStorage.preloadedWork) return null;
+        return this.rawToThumb(JSON.parse(sessionStorage.preloadedWork));
+      })()
     }
 
-    request
-      .get(this.props.api)
-      .end((err, res) => {
-        const rawWork = res.body.work;
+    if (!this.state.work) {
+      request
+        .get(this.props.api)
+        .end((err, res) => {
+          const rawWork = res.body.work;
         
-        const workThumbs = rawWork.map(item => {
-          return (
-            <WorkThumb
-              api={this.props.api}
-              img={item.img}
-              id={btoa(item.name)} />
-          );
-        });
+          const workThumbs = this.rawToThumb(rawWork);
         
-        this.setState({
-          work: workThumbs
-        });
+          this.setState({
+            work: workThumbs
+          }, () => {
+            sessionStorage.preloadedWork = JSON.stringify(rawWork);
+          });
       });
+    }
+  }
+
+  rawToThumb(rawWork) {
+    return rawWork.map(item => {
+      return (
+          <WorkThumb
+            api={this.props.api}
+            img={item.img}
+            id={btoa(item.name)} />
+      );
+    });
   }
 
   render() {

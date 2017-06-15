@@ -1,4 +1,4 @@
-![image here](image_url)
+![image here](/img/work/fwd.png)
 
 # Forward Philly
 
@@ -8,7 +8,7 @@ We used React, Backbone.js, Node.js, MongoDB, vanilla JavaScript for a lot of in
 
 ## My Involvement
 
-I was recruited by Forward Philly as a part of the [PennApps Fellowship]()
+I was recruited by Forward Philly as a part of the [PennApps Fellowship.](http://pennappsfellows.com)
 
 Forward Philly is a comprehensive real-estate product aimed at improving the quality of living in Philadelphia.
 

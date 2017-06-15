@@ -1,6 +1,10 @@
-![image here](image_url)
+![image here](/img/work/helix.png)
 
 # Helix
+
+## Links
+
+* [PennApps Submission](//devpost.com/software/helix)
 
 ## Tools
 
@@ -16,6 +20,6 @@ Helix is a doctor-patient relationship management platform that essentially allo
 * view user reports of symptoms, etc
 * give the user a prescription over the dashboard, which is then fulfilled and delivered by Postmates' API
 
-## Hype
+## Press
 
-* [that daily penn article]
+* [Daily Pennsylvanian](http://www.thedp.com/article/2015/01/high-school-students-penn-apps-team-2015)

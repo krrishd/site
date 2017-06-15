@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import request from 'superagent';
+import ReactMarkdown from 'react-markdown';
 import {
   Link,
   browserHistory
@@ -10,44 +11,62 @@ class WorkItem extends Component {
     super(props);
 
     this.state = {
-      meta: {
-        name: "Loading...",
-        description: "Loading...",
-        img: "",
-        link: "#"
-      }
+      meta: (() => {
+        if (sessionStorage.preloadedWork) {
+          const parsedWork = JSON.parse(sessionStorage.preloadedWork);
+          return this.getRelevantItem(parsedWork);
+        }
+        return null;
+      }),
+      content: null
     }
-
-    const id = this.props.params.id;
 
     request
       .get(this.props.route.api)
       .end((err, res) => {
-        const relevantItem = res.body.work.find(item => {
-          return (item.name === atob(id));
-        });
-
+        const relevantItem = this.getRelevantItem(res.body.work)
         this.setState({
           meta: relevantItem
+        }, () => {
+          sessionStorage.preloadedWork = JSON.stringify(res.body.work);
+          this.getMarkdown(relevantItem.md, (err, md) => {
+            if (err) throw err;
+            console.log(md);
+            this.populateMarkdown(md);
+          })
         });
       });
+  }
+
+  getRelevantItem(work) {
+    return work.find(item => {
+      return (item.name === atob(this.props.params.id));
+    });
+  }
+
+  getMarkdown(filename, callback) {
+    request
+      .get(`/work-raw/${filename}.md`)
+      .end((err, res) => {
+        if (err) return callback(err, null);
+        return callback(null, res.text);
+      });
+  }
+
+  populateMarkdown(md) {
+    this.setState({
+      content: <ReactMarkdown source={md} className="fadeIn"/>
+    })
   }
 
   render() {
 
     return (
-      <div className="WorkItem fadeIn">
+      <div className="WorkItem">
         <Link
           to='/'
           className='back'>&lt;-</Link>
-        <img src={this.state.meta.img} />
-        <h2 className="header"><span>{this.state.meta.name}</span></h2>
-        <p className="description">{this.state.meta.description}</p>
-        {
-          this.state.meta.link ?
-            <a href={this.state.meta.link}>check it out</a> :
-            null
-        }
+        {this.state.content}
       </div>
     );
   }

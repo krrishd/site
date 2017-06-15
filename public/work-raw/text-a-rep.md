@@ -1,4 +1,4 @@
-![image here](image_url)
+![image here](/img/work/rep.png)
 
 # Text A Rep
 
@@ -9,7 +9,7 @@
 
 ## Tools
 
-I used the Twilio API for texts sent and received, Phaxio for the faxes to Congress, [open congress dataset] for the relevant Congressional data, and Node.js to put it all together.
+I used the Twilio API for texts sent and received, Phaxio for the faxes to Congress, [unitedstates/congress-legislators](https://github.com/unitedstates/congress-legislators) for the relevant Congressional data, and Node.js to put it all together.
 
 ## Concept
 
@@ -17,7 +17,7 @@ This was built for [CalHacks](http://calhacks.io), UC Berkeley's 36-hour hackath
 
 The core idea at play was simple: contacting Congress feels tough (and thus has a high barrier-to-entry) because phone-calls feel like a lot of effort and faxing isn't as optimized for the common person as it could be. Text is probably a more ubiquitous (and low-effort) medium to rely on, so, given the right APIs, it would simply be a matter of leveraging SMS => fax => congress.
 
-The Twilio and Phaxio APIs made the text and fax aspects non-issues, so all that remained was figuring out how to systematically choose which Congressperson a text should reach (and thus which fax #), and how to obtain that data. Luckily, [x] provides an open dataset in which Congress, their states/districts, and fax details are all consolidated into YAML.
+The Twilio and Phaxio APIs made the text and fax aspects non-issues, so all that remained was figuring out how to systematically choose which Congressperson a text should reach (and thus which fax #), and how to obtain that data. Luckily, [@unitedstates on GitHub](https://github.com/unitedstates/congress-legislators) provides an open dataset in which Congress, their states/districts, and fax details are all consolidated into YAML.
 
 With that data, I then had to build a fairly straightforward server layer in Node that:
 

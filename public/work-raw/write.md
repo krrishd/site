@@ -1,4 +1,4 @@
-![image here](image_url)
+![image here](/img/work/write.png)
 
 # Write
 
@@ -13,11 +13,11 @@ I used Sketch for the basic design/wireframing, and then React (JavaScript) for 
 
 ## Concept
 
-My initial spec was fairly straightforward since the underlying concept of the editor is not new: to implement a free version of [Flowstate](http://hailoverman.com/flowstate) built for the web, with a cleaner UI, less cognitive load along the way, and room for rapid iteration.
+My initial spec was fairly straightforward since the underlying concept of the editor is not new: to implement a free version of **[Flowstate](http://hailoverman.com/flowstate) built for the web, with a cleaner UI, less cognitive load along the way, and room for rapid iteration**.
 
-For clarity, Flowstate is a desktop-based editor with two core constraints: you choose a fixed duration within which you write, and if you decide to stop typing for more than a few seconds within that duration, **all your work is erased**.
+For clarity, Flowstate is a desktop-based editor with two core constraints: you choose a fixed duration within which you write, and **if you decide to stop typing** for more than a few seconds within that duration, **all your work is erased**.
 
-Flowstate was designed with such constraints to address the broader issue of writer's block; I've found (retrospectively) that in addition to mitigating writer's block, the format incidentally makes it really easy to engage in stream-of-consciousness writing, which is otherwise very difficult to actually keep up with and derive value from, at least for a non-writer.
+Flowstate was designed with such constraints to address the broader issue of writer's block; I've found (retrospectively) that in addition to **mitigating writer's block**, the format incidentally makes it really easy to engage in **stream-of-consciousness writing**, which is otherwise very difficult to actually keep up with and derive value from, at least for a non-writer.
 
 The current feature-set of Write includes:
 
@@ -35,7 +35,9 @@ I've tried journalling before but was never able to make a habit of it. Two fact
 * For one, the duration being finite makes it easy to approach, given that it's clear that after 15 minutes I can move on to whatever else I wanted to do.
 * More powerful, in my opinion, is that I've been [Pavlov'd](https://www.learning-theories.com/classical-conditioning-pavlov.html) into a flow where, when my mind is unclear or cluttered, I automatically want to journal about it for the finite duration. I didn't design Write around such a cognitive trigger, so I can only assume that the utility from journalling with it has been so significant that my subconscious mind craves that utility when it needs it. Whether that's utility inherent to journalling or just my tool remains to be seen; either way, it's utility I've only gained access to through the constraints of Write & Flowstate.
 
-## Hype
+## Press
 
-* [Product Hunt (front page)]()
-* etc
+* [Product Hunt (front page, 200+ upvotes)](https://www.producthunt.com/posts/write-4)
+* [FreeTech4Teachers](http://www.freetech4teachers.com/2017/05/write-surge-minimalist-writing-platform.html#.WSCZvrzzRSV)
+* [UsefulInterweb.com](http://usefulinterweb.com/post/160835994896/keep-writing-or-everything-gets-deleted)
+* [HVG Tech (Hungarian tech publication)](http://hvg.hu/tudomany/20170519_write_gyors_iras_gepeles)
