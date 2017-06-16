@@ -12,6 +12,6 @@ const toPreloadAndCache = [
 
 export default () => {
   toPreloadAndCache.forEach(path => {
-    request.get(path).end();
+    request.get(path);
   });
 }
