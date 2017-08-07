@@ -6,6 +6,10 @@
 
 * [PennApps Submission](//devpost.com/software/helix)
 
+## Press
+
+* [Daily Pennsylvanian](http://www.thedp.com/article/2015/01/high-school-students-penn-apps-team-2015)
+
 ## Tools
 
 Sketch, JavaScript, Node.js, MongoDB, Heroku
@@ -19,7 +23,3 @@ Helix is a doctor-patient relationship management platform that essentially allo
 * monitoring the patient's vital/relevant health data in a user-friendly dashboard
 * view user reports of symptoms, etc
 * give the user a prescription over the dashboard, which is then fulfilled and delivered by Postmates' API
-
-## Press
-
-* [Daily Pennsylvanian](http://www.thedp.com/article/2015/01/high-school-students-penn-apps-team-2015)

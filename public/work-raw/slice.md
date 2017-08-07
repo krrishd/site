@@ -6,6 +6,14 @@
 
 * [Landing page](//slice.capital)
 
+## Press
+
+* [Inc. (Coolest College Startups 2016)](https://www.inc.com/profile/slice-capital)
+* [CNBC](https://www.cnbc.com/2016/05/03/meet-the-man-out-to-disrupt-venture-capital-crowdfunding-equity-jobs-act.html)
+* [Boston Globe](https://www.bostonglobe.com/business/2016/10/16/prizes-abound-for-startups-trying-change-world/ouqnxwGaAMnjmGBeE1U4MI/story.html)
+* [New York Business Journal](http://www.bizjournals.com/newyork/news/2015/12/07/ivy-league-startup-founders-vie-to-be-the-next.html)
+* [Drexel University](https://drexel.edu/law/about/news/articles/overview/2016/March/Coolest-Startup-03182016/)
+
 ## Tools
 
 HTML/CSS, Node.js, MongoDB, AWS, Ubuntu, Sendy, Parse (RIP), Sketch, among others.
@@ -21,12 +29,4 @@ From there, we expanded our legal and business development teams to accomodate t
 Late in 2016, we received notice from Forbes that we were top 4 finalists in their Under 30 Changemakers competition; Rohan and Nihar (our biz dev lead) pitched to a Forbes-run panel of investors such as Ashton Kutcher, and we were subsequently **funded by Rough Draft Ventures**.
 
 Early 2017 onwards, I started getting more busy with school and began narrowing the scope of my work with Slice, and we onboarded our new CTO ([Dan Stepanov](http://danstepanov.com)). I'm currently loosely involved with the team, stepping in when my web dev work comes in handy; the team is on track to launch soon, and I'm excited to see where Slice takes the world of investment!
-
-## Press
-
-* [Inc. (Coolest College Startups 2016)](https://www.inc.com/profile/slice-capital)
-* [CNBC](https://www.cnbc.com/2016/05/03/meet-the-man-out-to-disrupt-venture-capital-crowdfunding-equity-jobs-act.html)
-* [Boston Globe](https://www.bostonglobe.com/business/2016/10/16/prizes-abound-for-startups-trying-change-world/ouqnxwGaAMnjmGBeE1U4MI/story.html)
-* [New York Business Journal](http://www.bizjournals.com/newyork/news/2015/12/07/ivy-league-startup-founders-vie-to-be-the-next.html)
-* [Drexel University](https://drexel.edu/law/about/news/articles/overview/2016/March/Coolest-Startup-03182016/)
 
