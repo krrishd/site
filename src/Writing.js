@@ -26,7 +26,8 @@ class Writing extends Component {
     this.writing = [
       { title: 'On Mindfulness & Product', link: 'http://telegra.ph/On-Mindfulness--Product-12-03' },
       { title: 'On Attention Span', link: 'http://telegra.ph/On-Attention-Span-12-19' },
-      { title: 'On Inevitabilities', link: 'http://telegra.ph/On-Inevitabilities-02-12' }
+      { title: 'On Inevitabilities', link: 'http://telegra.ph/On-Inevitabilities-02-12' },
+      { title: 'On Democratization of Creativity', link: 'http://telegra.ph/On-Democratization-Of-Creativity-12-27' }
     ];
   
   }

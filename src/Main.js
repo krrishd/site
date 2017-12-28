@@ -91,8 +91,9 @@ class Main extends Component {
         </div>
         <div className="ting where fadeIn">
           <h3 className="cool">what have i been up to?</h3>
+          <p>incoming <a href="//hackny.org" target="_blank"><span>hackNY</span></a> fellow '18</p>
+          <p>engineering partner @ <a href="//contrarycap.com" target="_blank"><span>contrary capital</span></a></p>
           <p>studying <a href="//github.com/krrishd/academic-plan#2017-2018"><span>CS + cognitive science</span></a> @ cu boulder</p>
-          <p>taking on new freelance projects for, taking products from design to deployment</p>
           <p>formerly an intern @ <a href="//sendgrid.com" target="_blank"><span>sendgrid</span></a>, co-founder @ <a href="//slice.capital"><span>slice.capital</span></a>, <a href="http://pennappsfellows.com" target="_blank"><span>pennapps fellow</span></a></p>
         </div>
         <div className="ting other fadeIn">
