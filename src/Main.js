@@ -64,7 +64,7 @@ class Music extends Component {
   render() {
     return (
       <div className="header Music fadeIn">
-        <img src={this.state.song.art} />
+        { this.state.song.art && <img src={this.state.song.art} /> }
         <div className="meta">
           <p className="name">
             <img src='/img/eq.gif' className="loading"/>
