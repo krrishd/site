@@ -341,21 +341,37 @@ footer b {
   color: #FF6A6A;
 }
 
+.Writing {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
 .Post {
-  display: block;
+  display: inline-block;
   background: none;
   color: rgba(0,0,0,.7);
-  border-bottom: 1px solid #FF6A6A;
-  margin: 10px auto;
+  border: 1px solid #FF6A6A;
+  margin: 10px;
   text-align: center;
-  width: 250px;
+  width: 300px;
   padding: 10px;
   font-size: 1.25em;
 }
 
-.Post:hover {
+.Post:hover .title {
   transition: .1s;
   color: #ff0505;
+}
+
+.Post .title {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.Post .description {
+  font-size: 0.9em;
+  margin-bottom: 10px;
 }
 
 .hidden {
@@ -511,6 +527,14 @@ footer b {
     margin: 10px auto;
     position: relative;
     left: -4.5px;
+  }
+
+  .Writing {
+    font-size: 0.8em;
+  }
+
+  .Post {
+    width: 270px;
   }
 
   footer {
