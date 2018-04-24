@@ -14,8 +14,8 @@ class Post extends Component {
       href={this.props.link}
       target="_blank"
       className="Post">
-      <span className="title">{this.props.title}</span>
       <span className="description">{this.props.desc}</span>
+      <span className="title">{this.props.title}</span>
       <span className="date">{this.props.date}</span>
     </a>);
   }

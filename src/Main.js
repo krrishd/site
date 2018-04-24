@@ -94,7 +94,7 @@ class Main extends Component {
           <p>incoming <a href="//hackny.org" target="_blank"><span>hackNY</span></a> fellow '18</p>
           <p>engineering partner @ <a href="//contrarycap.com" target="_blank"><span>contrary capital</span></a></p>
           <p>studying <a href="//github.com/krrishd/academic-plan#2017-2018"><span>CS + cognitive science</span></a> @ cu boulder</p>
-          <p>formerly an intern @ <a href="//sendgrid.com" target="_blank"><span>sendgrid</span></a>, co-founder @ <a href="//slice.capital"><span>slice.capital</span></a>, <a href="http://pennappsfellows.com" target="_blank"><span>pennapps fellow</span></a></p>
+          <p>formerly an intern @ <a href="//sendgrid.com" target="_blank"><span>sendgrid</span></a>, <a href="http://pennappsfellows.com" target="_blank"><span>pennapps fellow</span></a></p>
         </div>
         <div className="ting other fadeIn">
           <h3 className="cool">where else can i be found?</h3>

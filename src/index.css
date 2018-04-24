@@ -351,11 +351,10 @@ footer b {
   display: inline-block;
   background: none;
   color: rgba(0,0,0,.7);
-  border: 1px solid #FF6A6A;
   margin: 10px;
-  text-align: center;
+  text-align: left;
   width: 300px;
-  padding: 10px;
+  padding: 25px;
   font-size: 1.25em;
 }
 
@@ -370,7 +369,7 @@ footer b {
 }
 
 .Post .description {
-  font-size: 0.9em;
+  font-size: 0.7em;
   margin-bottom: 10px;
 }
 
@@ -535,6 +534,7 @@ footer b {
 
   .Post {
     width: 270px;
+    padding: 10px;
   }
 
   footer {
