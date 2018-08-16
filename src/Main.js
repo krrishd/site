@@ -87,19 +87,26 @@ class Main extends Component {
       <div className={`Main ${this.props.className}`}>
         <div className="ting title fadeIn">
           <h3 className="cool">who am i?</h3>
-          <p>i'm a designer / developer based in boulder, co</p>
+          <p>i'm a product engineer + writer + student. based in boulder, co.</p>
         </div>
         <div className="ting where fadeIn">
           <h3 className="cool">what have i been up to?</h3>
-          <p>incoming <a href="//hackny.org" target="_blank"><span>hackNY</span></a> fellow '18</p>
-          <p>engineering partner @ <a href="//contrarycap.com" target="_blank"><span>contrary capital</span></a></p>
-          <p>studying <a href="//github.com/krrishd/academic-plan#2017-2018"><span>CS + cognitive science</span></a> @ cu boulder</p>
-          <p>formerly an intern @ <a href="//sendgrid.com" target="_blank"><span>sendgrid</span></a>, <a href="http://pennappsfellows.com" target="_blank"><span>pennapps fellow</span></a></p>
+          <p>engineering lead @ <a className="contrary" href="//contrarycap.com" target="_blank"><span>contrary capital</span></a></p>
+          <p>
+            building product for fundraising @&nbsp;
+            <a className="flm" href="https://firstlook.media/" target="_blank"><span>first look media</span></a>
+            /
+            <a className="ti" href="https://theintercept.com" target="_blank"><span>the intercept</span></a>
+          </p>
+          <p><a className="hackny" href="//hackny.org" target="_blank"><span>hackNY</span></a> fellow '18</p>
+          <p>studying <a className="cu" href="//github.com/krrishd/academic-plan#2017-2018"><span>CS + cognitive science</span></a> @ cu boulder</p>
+          <p>formerly an intern @ <a className="sg" href="//sendgrid.com" target="_blank"><span>sendgrid</span></a>, <a href="https://medium.com/pennapps-fellows/meet-the-pennapps-fellows-2015-2bc7e46cd256" target="_blank"><span>pennapps fellow</span></a></p>
         </div>
         <div className="ting other fadeIn">
           <h3 className="cool">where else can i be found?</h3>
           <ul className="links">
             <li><a href="/r.pdf"><span>résumé</span></a></li>
+            <li><a className="twitter" href="//twitter.com/krrishd"><span>twitter</span></a></li>
             <li><a className="gh" href="//git.io/krish"><span>github</span></a></li>
             <li><a className="ln" href="//linkedin.com/in/krishdholakiya"><span>linkedin</span></a></li>
             <li><a className="sc" href="//soundcloud.com/krish-dholakiya"><span>soundcloud</span></a></li>

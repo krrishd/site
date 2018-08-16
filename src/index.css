@@ -68,7 +68,7 @@ h1, h2, h3 {
 }
 
 .header {
-  border-bottom: 2px solid #FF6A6A;
+  border-bottom: 2px solid #333a48;
   width: 300px;
   margin: 10px auto;
   text-align: center;
@@ -87,7 +87,7 @@ h1, h2, h3 {
   position: relative;
   left: -15px;
   color: #fdfdfd;
-  text-shadow: #ff6a6a 1px 1px, #ff6a6a 0px 0px, #ff6a6a 1px 1px, #ff6a6a 2px 2px, #ff6a6a 3px 3px, #ff6a6a 4px 4px, #ff6a6a 5px 5px, #ff6a6a 6px 6px, #ff6a6a 7px 7px, #ff6a6a 8px 8px, #ff6a6a 9px 9px, #ff6a6a 10px 10px, #ff6a6a 11px 11px, #ff6a6a 12px 12px, #ff6a6a 13px 13px, #ff6a6a 14px 14px, #ff6a6a 15px 15px, #ff6a6a 16px 16px, #ff6a6a 17px 17px, #ff6a6a 18px 18px, #ff6a6a 19px 19px;
+  text-shadow: #333a48 1px 1px, #333a48 0px 0px, #333a48 1px 1px, #333a48 2px 2px, #333a48 3px 3px, #333a48 4px 4px, #333a48 5px 5px, #333a48 6px 6px, #333a48 7px 7px, #333a48 8px 8px, #333a48 9px 9px, #333a48 10px 10px, #333a48 11px 11px, #333a48 12px 12px, #333a48 13px 13px, #333a48 14px 14px, #333a48 15px 15px, #333a48 16px 16px, #333a48 17px 17px, #333a48 18px 18px, #333a48 19px 19px;
 }
 
 .header.main,
@@ -163,7 +163,7 @@ a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  background: #FF6A6A;
+  background: #333a48;
   transform: rotate(1deg);
   padding: 0 5px;
 }
@@ -173,6 +173,10 @@ a:hover {
   -webkit-transition: .2s;
   -moz-transition: .2s;
   transform: rotate(0deg);
+}
+
+.links {
+  padding-left: 0;
 }
 
 a.twitter {
@@ -189,6 +193,35 @@ a.ln {
 
 a.sc {
   background: #ff7700;
+}
+
+a.contrary {
+  background: #557bf7;
+}
+
+a.flm {
+  background: #fafafa;
+  border:1px solid #444;
+  color: #222;
+  margin:5px;
+}
+
+a.ti {
+  background: #222;
+  color: #fff;
+  margin: 5px;
+}
+
+a.hackny {
+  background: #dc2e20;
+}
+
+a.cu {
+  background: #565A5C;
+}
+
+a.sg {
+  background: #3583db;
 }
 
 .Image {
@@ -212,7 +245,7 @@ a:hover > * {
 .Music {
   margin-top: 50px;
   padding: 5px 10px 15px 10px;
-  border-top: 2px solid #FF6A6A;
+  border-top: 2px solid #333a48;
 }
 
 .Music img {
@@ -279,11 +312,11 @@ a:hover > * {
   background: none;
   color: rgba(0,0,0,.75);
   border: 1px dotted rgba(0,0,0,0);
-  border-bottom: 1px dotted #FF6A6A;
+  border-bottom: 1px dotted #333a48;
 }
 
 .WorkItem a:hover {
-  border: 1px dotted #FF6A6A;
+  border: 1px dotted #333a48;
 }
 
 .WorkItem a>* {
@@ -312,7 +345,7 @@ a:hover > * {
   position: fixed;
   top: 15px;
   left: 15px;
-  color: #FF6A6A;
+  color: #333a48;
   background: none;
   transform: none;
   font-size: 3em;
@@ -338,7 +371,7 @@ footer {
 }
 
 footer b {
-  color: #FF6A6A;
+  color: #333a48;
 }
 
 .Writing {
@@ -384,7 +417,7 @@ footer b {
 }
 
 .Navigation ul {
-  border-left: 3px dotted #FF6A6A;
+  border-left: 3px dotted #333a48;
   padding-left: 0;
   margin-left: 25px;
 }
@@ -398,8 +431,8 @@ footer b {
 }
 
 .Navigation ul li.selected {
-  color: #FF6A6A;
-  border-left: 3px solid #ff0505;
+  color: #333a48;
+  border-left: 3px solid #333a48;
   transform: none;
   margin-left: -3px;
 }
