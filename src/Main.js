@@ -87,7 +87,7 @@ class Main extends Component {
       <div className={`Main ${this.props.className}`}>
         <div className="ting title fadeIn">
           <h3 className="cool">who am i?</h3>
-          <p>i'm a product engineer + writer + student. based in boulder, co.</p>
+          <p>i'm a product engineer + student. based in boulder, co.</p>
         </div>
         <div className="ting where fadeIn">
           <h3 className="cool">what have i been up to?</h3>
@@ -98,9 +98,8 @@ class Main extends Component {
             /
             <a className="ti" href="https://theintercept.com" target="_blank"><span>the intercept</span></a>
           </p>
-          <p><a className="hackny" href="//hackny.org" target="_blank"><span>hackNY</span></a> fellow '18</p>
           <p>studying <a className="cu" href="//github.com/krrishd/academic-plan#2017-2018"><span>CS + cognitive science</span></a> @ cu boulder</p>
-          <p>formerly an intern @ <a className="sg" href="//sendgrid.com" target="_blank"><span>sendgrid</span></a>, <a href="https://medium.com/pennapps-fellows/meet-the-pennapps-fellows-2015-2bc7e46cd256" target="_blank"><span>pennapps fellow</span></a></p>
+          <p>formerly a <a className="hackny" href="//hackny.org" target="_blank"><span>hackNY fellow</span></a>, intern @ <a className="sg" href="//sendgrid.com" target="_blank"><span>sendgrid</span></a>, <a href="https://medium.com/pennapps-fellows/meet-the-pennapps-fellows-2015-2bc7e46cd256" target="_blank"><span>pennapps fellow</span></a></p>
         </div>
         <div className="ting other fadeIn">
           <h3 className="cool">where else can i be found?</h3>

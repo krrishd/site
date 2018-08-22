@@ -9,6 +9,8 @@ class Navigation extends Component {
     super(props);
   }
 
+  /**/
+
   render() {
     return(
       <div className="Navigation">
@@ -17,7 +19,7 @@ class Navigation extends Component {
             className={this.props.current === 'main' ? 'selected' : ''}
             onClick={() => {
               this.props.switchCurrent('main')
-          }}><span>me</span></li>
+          }}><span>about me</span></li>
           <li
             className={this.props.current === 'work' ? 'selected' : ''}
             onClick={() => {
@@ -67,14 +69,14 @@ class App extends Component {
           <Main
             api='http://krish-api.herokuapp.com/api/last'
             className={this.state.current === 'main' ? '' : 'hidden'}/>
-          <Instagram
-            api='http://krish-api.herokuapp.com/api/insta'
-            className={this.state.current === 'insta' ? '' : 'hidden'}/>
         </div>
         <Writing className={this.state.current === 'writing' ? '' : 'hidden'}/>
         <Work
           api='/work.json'
           className={this.state.current === 'work' ? '' : 'hidden'}/>
+        <Instagram
+          api='http://krish-api.herokuapp.com/api/insta'
+          className={this.state.current === 'insta' ? '' : 'hidden'}/>
         <Navigation
           current={this.state.current}
           switchCurrent={this.switchCurrent} />

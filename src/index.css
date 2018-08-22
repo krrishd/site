@@ -120,12 +120,14 @@ h1, h2, h3 {
 .Instagram {
   width: 450px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .Image {
   width: 26%;
   margin: 10px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .Image img {
@@ -210,10 +212,12 @@ a.ti {
   background: #222;
   color: #fff;
   margin: 5px;
+  margin-bottom: 0;
 }
 
 a.hackny {
   background: #dc2e20;
+  margin: 5px;
 }
 
 a.cu {
@@ -281,9 +285,35 @@ a:hover > * {
   text-align: center;
 }
 
-.WorkThumb {
-  width: 28%;
+.WorkThumbContainer {
+  display: inline-block;
+  width: 40%;
   margin: 10px;
+}
+
+.WorkThumbContainer .tags {
+  padding-left: 0;
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  margin-left: -5%;
+}
+
+.WorkThumb {
+  display: inline-block;
+  width: 70%;
+  margin: 0;
+}
+
+.WorkThumbContainer .tags li {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 0;
+  background: #333a48;
+  color: #fff;
+  padding-left: 12.5%;
+  text-align: right;
 }
 
 .WorkThumb img {
@@ -339,6 +369,7 @@ a:hover > * {
   text-align: center;
   margin: 10px auto;
   padding: 10px;
+  line-height: 45px;
 }
 
 .WorkItem .back {
@@ -454,6 +485,7 @@ footer b {
 .ting p {
   width: 90%;
   margin: 10px auto;
+  line-height: 20px;
 }
 
 .ting li {
@@ -469,6 +501,23 @@ footer b {
 .ting:nth-child(4) { animation-delay: .28s; }
 
 .Music { opacity: 0; animation-fill-mode: forwards; animation-delay: .34s;}
+
+@media (min-width: 880px) {
+  /*.WorkItem {
+    max-width: initial;
+    width: 65%;
+  }*/
+}
+
+@media (max-width: 1100px) {
+  .WorkThumbContainer .tags {
+    display: none;
+  }
+
+  .WorkThumb {
+    width: 100%;
+  }
+}
 
 @media (max-width: 620px) {
   .hidden {

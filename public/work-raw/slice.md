@@ -1,6 +1,6 @@
 ![image here](/img/work/slice.png)
 
-# Slice Capital
+# Slice Capital (2015 - 2018)
 
 ## Links
 

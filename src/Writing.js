@@ -45,7 +45,12 @@ class Writing extends Component {
         desc: 'I outline creative platforms and the mechanisms by which they democratize various forms of creativity. I then attempt to extrapolate common principles that might assist in democratizing other forms.',
         date: 'December 27th, 2017',
         title: 'On Democratization of Creativity', 
-        link: 'http://telegra.ph/On-Democratization-Of-Creativity-12-27' }
+        link: 'http://telegra.ph/On-Democratization-Of-Creativity-12-27' },
+      { 
+        desc: 'I did research work, primarily via user interviews, to understand the experiences surrounding takedowns on major platforms.',
+        date: 'May 12th, 2018',
+        title: 'On Content Takedown’s Micro-Sociological Consequences', 
+        link: '/takedowns.pdf' },
     ];
   
   }

@@ -12,11 +12,17 @@ class WorkThumb extends Component {
 
   render() {
     return (
-      <Link
-        to={`/work/${this.props.id}`}
-        className="WorkThumb">
-        <img src={this.props.img} />
-      </Link>
+      <div className="WorkThumbContainer">
+        <Link
+          to={`/work/${this.props.id}`}
+          className="WorkThumb">
+          
+          <img src={this.props.img} />
+        </Link>
+        <ul className="tags">
+          {this.props.tags && this.props.tags.map(tag => <li>{tag}</li>)}
+        </ul>
+      </div>
     );
   }
 }
@@ -59,7 +65,8 @@ class Work extends Component {
           <WorkThumb
             api={this.props.api}
             img={item.img}
-            id={item.md} />
+            id={item.md}
+            tags={item.tags} />
       );
     });
   }

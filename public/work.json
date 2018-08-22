@@ -1,34 +1,52 @@
 {
 	"work": [
 		{
+			"name": "Contrary Capital - Demo Day Investor <> Startup Matching",
+			"md": "contrary-demo",
+			"img": "/img/work/contrary-demo.png",
+			"tags": ["Data", "Eng"]
+		},
+		{
+			"name": "Fundraising 2.0 @ First Look Media",
+			"md": "flm",
+			"img": "/img/work/flm.png",
+			"tags": ["PM", "Eng", "Design"]
+		},
+		{
+			"name": "Contrary Capital - Landing",
+			"md": "contrary-landing",
+			"img": "/img/work/contrary-landing.png",
+			"tags": ["Eng"]
+		},
+		{
       "name": "Write",
       "md": "write",
-      "img": "/img/work/write.png"
+			"img": "/img/work/write.png",
+			"tags": ["Eng", "Design"]
     },
     {
 			"name": "Text Your Rep",
 			"md": "text-a-rep",
-			"img": "/img/work/rep.png"
-		},
-		{
-			"name": "Sitrus Clothing",
-			"md": "sitrus",
-			"img": "/img/work/sitrus.png"
+			"img": "/img/work/rep.png",
+			"tags": ["Eng", "Design"]
 		},
 		{
 			"name": "Forward Philly",
 			"md": "forward",
-			"img": "/img/work/fwd.png"
+			"img": "/img/work/fwd.png",
+			"tags": ["Data", "Eng", "Design"]
 		},
 		{
 			"name": "Helix",
 			"md": "helix",
-			"img": "/img/work/helix.png"
+			"img": "/img/work/helix.png",
+			"tags": ["Eng", "Design"]
 		},
 		{
 			"name": "goContribute",
 			"md": "gocontribute",
-			"img": "/img/work/gocontribute.png"
+			"img": "/img/work/gocontribute.png",
+			"tags": ["Data", "Eng"]
 		}
 	]
 }
