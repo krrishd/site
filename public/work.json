@@ -1,6 +1,12 @@
 {
 	"work": [
 		{
+      "name": "Write",
+      "md": "write",
+			"img": "/img/work/write.png",
+			"tags": ["Eng", "Design"]
+    },
+		{
 			"name": "Contrary Capital - Demo Day Investor <> Startup Matching",
 			"md": "contrary-demo",
 			"img": "/img/work/contrary-demo.png",
@@ -18,12 +24,6 @@
 			"img": "/img/work/contrary-landing.png",
 			"tags": ["Eng"]
 		},
-		{
-      "name": "Write",
-      "md": "write",
-			"img": "/img/work/write.png",
-			"tags": ["Eng", "Design"]
-    },
     {
 			"name": "Text Your Rep",
 			"md": "text-a-rep",
