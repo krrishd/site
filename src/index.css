@@ -205,19 +205,19 @@ a.flm {
   background: #fafafa;
   border:1px solid #444;
   color: #222;
-  margin:5px;
+  /*margin:5px;*/
 }
 
 a.ti {
   background: #222;
   color: #fff;
-  margin: 5px;
-  margin-bottom: 0;
+  /*margin: 5px;
+  margin-bottom: 0;*/
 }
 
 a.hackny {
   background: #dc2e20;
-  margin: 5px;
+  /*margin: 5px;*/
 }
 
 a.cu {
@@ -491,6 +491,15 @@ footer b {
 .ting li {
   display: inline-block;
   margin: 5px 10px;
+}
+
+.ting .past {
+  margin-top: 15px;
+  line-height: 30px;
+}
+
+.ting .past a span {
+  height: 60%;
 }
 
 .header.main { opacity: 0; animation-fill-mode: forwards; animation-delay: .04s;}

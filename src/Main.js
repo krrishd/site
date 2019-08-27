@@ -91,15 +91,11 @@ class Main extends Component {
         </div>
         <div className="ting where fadeIn">
           <h3 className="cool">what have i been up to?</h3>
-          <p>engineering lead @ <a className="contrary" href="//contrarycap.com" target="_blank"><span>contrary capital</span></a></p>
-          <p>
-            building product for fundraising @&nbsp;
-            <a className="flm" href="https://firstlook.media/" target="_blank"><span>first look media</span></a>
-            /
-            <a className="ti" href="https://theintercept.com" target="_blank"><span>the intercept</span></a>
+          <p>writing, experimenting, making music, studying <a className="cu" href="//github.com/krrishd/academic-plan#2017-2018"><span>CS @ cu boulder</span></a></p>
+          <p className="past">
+            past: <a className="contrary" href="//contrarycap.com" target="_blank"><span>contrary capital</span></a>,
+            &nbsp;<a className="flm" href="https://firstlook.media/" target="_blank"><span>first look media</span></a>, <a className="hackny" href="//hackny.org" target="_blank"><span>hackNY fellowship</span></a>, <a className="sg" href="//sendgrid.com" target="_blank"><span>sendgrid</span></a>, <a href="https://medium.com/pennapps-fellows/meet-the-pennapps-fellows-2015-2bc7e46cd256" target="_blank"><span>pennapps fellowship</span></a>
           </p>
-          <p>studying <a className="cu" href="//github.com/krrishd/academic-plan#2017-2018"><span>CS + cognitive science</span></a> @ cu boulder</p>
-          <p>formerly a <a className="hackny" href="//hackny.org" target="_blank"><span>hackNY fellow</span></a>, intern @ <a className="sg" href="//sendgrid.com" target="_blank"><span>sendgrid</span></a>, <a href="https://medium.com/pennapps-fellows/meet-the-pennapps-fellows-2015-2bc7e46cd256" target="_blank"><span>pennapps fellow</span></a></p>
         </div>
         <div className="ting other fadeIn">
           <h3 className="cool">where else can i be found?</h3>

@@ -61,7 +61,7 @@ class App extends Component {
   render() {
     return (
       <div className="App fadeIn">
-        <img src='/me.jpg' className="me" />
+        <img src='/me.png' className="me" />
         <h1 className="header main fadeIn">
           <span>krish dholakiya</span>
         </h1>
